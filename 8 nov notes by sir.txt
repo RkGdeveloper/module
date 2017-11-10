@@ -1,0 +1,80 @@
+less 1 - slide 10
+
+why spring light weight framework?
+		spring does not require external server to run
+		less jar file
+		
+
+
+spring boot - > creating ur appl faster (xml free) has its own server
+	xd - > big data ,
+	data ,
+	social - > connect fb,twitter
+
+spring coorindation layer - > used to connect cloud environment
+
+
+xml - annotaion - java config classes  ------> 
+
+reduce boilerplate code - reduce number of code 
+
+
+les 2 - slide 8
+
+container
+
+bean factory lazy in instatiation (parent load load child)
+appl context is eager 
+
+
+
+spring container / IOC Container / DI container / Core Container
+
+
+Core Container	
+	->Appln context(extended version of bean factory)--(I 18 N,event handling,external files,resource file,reading image)
+	->beans factory
+
+--------------------------------------------------------
+
+primary container - bean factory
+
+
+=========================================
+
+class =>component
+beans 
+
+
+===================================
+
+spring meta-data config can be given by
+
+	XML
+	java based annotation
+	java based config
+
+====================================
+
+
+used for webbased product --
+request 
+session 
+global - session
+
+default scope of bean is SingleTon
+
+
+===============================
+
+interface injection is not possible in spring
+setter and constructor is in spring
+
+============================
+
+in Aplication Context -> it will create Employee and Address Object
+	Bean Factory -> it will first create Employee and if required then create Address
+
+=============================
+ 
+
